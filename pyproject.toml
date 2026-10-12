@@ -1,0 +1,14 @@
+[project]
+name = "racing-rl"
+version = "0.1.0"
+description = "Vectorized racing environment and PPO trainer"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "moderngl>=5.12.0",
+    "numpy>=2.5.3",
+    "pygame-ce>=2.5.8",
+    "torch>=2.5",
+    "tyro>=0.9",
+    "wandb>=0.19",
+]
